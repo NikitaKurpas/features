@@ -1,17 +1,13 @@
 
-# Vapor Toolbox CLI! (vapor-toolbox)
+# Vapor Toolbox (vapor-toolbox)
 
-Note: Requires Swift to be present in the container (e.g. `swift:latest` image).
-
-Installs the [Vapor Toolbox CLI](https://github.com/vapor/toolbox). Also installs latest `git` and `make` if not present.
+Installs the Vapor Toolbox CLI
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/NikitaKurpas/features/vapor-toolbox:1": {
-        "version": "main"
-    }
+    "ghcr.io/NikitaKurpas/features/vapor-toolbox:1": {}
 }
 ```
 
@@ -19,4 +15,10 @@ Installs the [Vapor Toolbox CLI](https://github.com/vapor/toolbox). Also install
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | The git tag of the version to install or 'main' to install the latest | string | `main` |
+| version | The git tag of the version to install or 'main' to install the latest | string | main |
+
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/NikitaKurpas/features/blob/main/src/vapor-toolbox/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
