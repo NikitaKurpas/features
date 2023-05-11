@@ -1,6 +1,6 @@
 {
     "version": {
-        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "image": "swift:latest",
         "features": {
             "vapor-toolbox": {
                 "version": "18.7.0"

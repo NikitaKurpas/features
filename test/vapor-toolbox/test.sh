@@ -26,7 +26,7 @@
 #                   --features vapor-toolbox   \
 #                   --remote-user root \
 #                   --skip-scenarios   \
-#                   --base-image mcr.microsoft.com/devcontainers/base:ubuntu \
+#                   --base-image swift:latest \
 #                   /path/to/this/repo
 
 set -e
