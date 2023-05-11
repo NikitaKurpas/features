@@ -7,7 +7,7 @@
         "version": {
             "type": "string",
             "proposals": [
-                "main",
+                "main"
             ],
             "default": "main",
             "description": "The git tag of the version to install or 'main' to install the latest"
