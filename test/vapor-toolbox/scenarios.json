@@ -1,9 +1,9 @@
 {
-    "hello": {
+    "version": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "hello": {
-                "greeting": "hello"
+            "vapor-toolbox": {
+                "version": "18.7.0"
             }
         }
     }

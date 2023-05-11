@@ -1,12 +1,9 @@
 {
-    "color_and_hello": {
+    "vapor-toolbox": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
-                "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
+            "vapor-toolbox": {
+                "version": "main"
             }
         }
     }

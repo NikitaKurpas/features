@@ -1,0 +1,20 @@
+{
+    "name": "Vapor Toolbox",
+    "id": "vapor-toolbox",
+    "version": "1.0.0",
+    "description": "Installs the Vapor Toolbox CLI",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "main",
+            ],
+            "default": "main",
+            "description": "The git tag of the version to install or 'main' to install the latest"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/git",
+        "ghcr.io/jungaretti/features/make"
+    ]
+}
